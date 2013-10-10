@@ -1,0 +1,131 @@
+
+nav {
+	display: inline;
+	line-height: 68px;
+}
+
+nav div {
+	position: relative;
+	display: inline;
+	font-family: 'Lucida Grande', verdana, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	left: 58px;
+	top: 3px;
+}
+
+nav ul {
+	margin-right:34px;
+	float:right;
+}
+
+nav ul li {
+	float:left;
+	margin-right:24px;
+	text-decoration: none;
+	font-family: 'Lucida Grande', verdana, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+nav ul li:visited {
+	text-decoration: none;
+}
+
+main {
+	clear:both;
+	width:820px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+
+}
+
+main img {
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 9px;
+	clear:both;
+}
+
+h1 {
+	font-family: 'Crimson Text', 'Times New Roman', Georgia, serif;
+	font-size:53px;
+	color:#232323;
+	text-align: center;
+	margin-top: 16px;
+}
+
+h3 {
+	display:block;
+	font-size:20px;
+	color:#232323;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom:20px;
+}
+#products {
+	font-family: "Lucida Grande", sans-serif;
+	margin-right: auto;
+	margin-left:auto;
+	width: 820px;
+	text-align: center;
+	padding-left:60px;
+	line-height:1.2em;
+}
+.product {
+	border-radius: 5px;
+	height:249;
+	width: 182px;
+	float:left;
+	border: solid #ddd 1px;
+    margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+	background: #70bf32;
+  	background: -webkit-linear-gradient(#fff, #efefef);
+  	background:    -moz-linear-gradient(#fff, #efefef);
+  	background:     -ms-linear-gradient(#fff, #efefef);
+  	background:      -o-linear-gradient(#fff, #efefef);
+  	background:         linear-gradient(#fff, #efefef);
+}
+.product img {
+	padding:15px;
+}
+h4 {
+	color: #369;
+	font-size: 21px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin:10 0 0 15;
+}
+h5 {
+	color: #cc0000;
+	font-size: 14px;
+	margin:10 0 0 15;
+
+}
+
+.product p {
+	color: #222;
+	font-size: 14px;
+	margin:10 0 0 15;
+}
+h2 {
+	font-family: 'Crimson Text', 'Times New Roman', Georgia, serif;
+	font-size:46px;
+	font-weight:500;
+	color:#232323;
+	text-align: center;
+	letter-spacing:-1px;
+	margin-top:30px;
+}
+.asterisks {
+	margin-top: 35px;
+}
+
+.customers {
+	position: relative;
+}
