@@ -4,6 +4,8 @@
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="37_Signals.css">
 	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:600' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 	<title>37signals: Web-based collaboration apps for small business</title>
 </head>
 <body>
@@ -29,11 +31,25 @@
 	</nav>
 	<main>
 		<img src="logo-37s-large.png">
-		<h1>Making collaboration productive and enjoyable for people every day.</h1>
-		<h3>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h3>
+		<div id="wrapper_default">
+			<h1>Making collaboration productive and enjoyable for people every day.</h1>
+			<h3>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h3>
+		</div>
+		<div id="wrapper_basecamp">
+			<h1>Basecamp.</h1>
+			<h3>Basecamp.</h3>
+		</div>
+		<div id="wrapper_highrise">
+			<h1>Highrise.</h1>
+			<h3>Highrise.</h3>
+		</div>
+		<div id="wrapper_campfire">
+			<h1>Campfire.</h1>
+			<h3>Campfire.</h3>
+		</div>
 		<div id="products">
 			<a href="https://basecamp.com">
-				<div class="product">
+				<div class="product" id="basecamp">
 					<img src="logo-bc.png">
 					<h4>Basecamp</h4>
 					<h5>Manage Projects</h5>
@@ -41,7 +57,7 @@
 				</div>
 			</a>
 			<a href="https://highrisehq.com">
-				<div class="product">
+				<div class="product" id="highrise">
 					<img src="logo-hr.png">
 					<h4>Highrise</h4>
 					<h5>Manage Contacts</h5>
@@ -49,7 +65,7 @@
 				</div>
 			</a>
 			<a href="https://campfirenow.com">
-				<div class="product">
+				<div class="product" id="campfire">
 					<img src="logo-cf.png">
 					<h4>Campfire</h4>
 					<h5>Work in Real-Time</h5>
