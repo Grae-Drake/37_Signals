@@ -5,9 +5,12 @@ $(document).ready(function () {
 	$("#wrapper_campfire").hide();
 
 	// Hide the default descriptions and reveal the product hover descriptions
-	$("#basecamp").mouseenter(function() {
+	$("#basecamp").on("mouseenter", (function() {
        $("#wrapper_default").hide();
-    $("#basecamp").mouseleave(function() {
        $("#wrapper_basecamp").show();
+    }));
+    $("#basecamp").on("mouseleave",function() {
+       $("#wrapper_basecamp").hide();
+       $("#wrapper_default").show();
     });
 });
